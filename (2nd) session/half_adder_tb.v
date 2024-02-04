@@ -1,6 +1,12 @@
 module half_adder_tb();
 //1. signal decleration
 //any input is a reg and output is a wire BUT in test bench all are reg!!!!!!!!!
+
+/*note: all variables assigned inside initial block 
+are of type reg          */
+
+
+
 reg A,B;
 wire CARRY,SUM;
 reg excepected_sum , excepected_carry;
@@ -9,6 +15,7 @@ Half_adder DUT(A,B,CARRY, SUM);
 initial begin
  /****************************************************************************/
 /****************************** first case ***********************************/   
+  //all the varaibles are reg
     
     A = 0;
     B = 0;

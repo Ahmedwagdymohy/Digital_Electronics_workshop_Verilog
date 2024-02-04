@@ -1,0 +1,8 @@
+module n_module(A,B,c);
+    parameter N =1;
+    input [(N-1):0] A;
+    input [N-1:0] B;
+
+    output [N-1:0]c;
+    assign c =A+B;
+endmodule
