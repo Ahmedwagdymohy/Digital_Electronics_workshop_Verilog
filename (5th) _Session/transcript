@@ -1,0 +1,181 @@
+# //  Questa Sim-64
+# //  Version 2021.1 win64 Jan 19 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim -voptargs="+acc" work.d_flip_flop_tb 
+# Start time: 17:43:00 on Feb 06,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.d_flip_flop_tb(fast)
+# Loading work.synchronous_reset_d_ff(fast)
+add wave *
+run -all
+# ** Note: $stop    : d_flip_flop_tb.v(20)
+#    Time: 72 ns  Iteration: 0  Instance: /d_flip_flop_tb
+# Break in Module d_flip_flop_tb at d_flip_flop_tb.v line 20
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:44:49 on Feb 06,2024
+# vlog -reportprogress 300 synchronous_reset_d_ff.v d_flip_flop_tb.v 
+# -- Compiling module synchronous_reset_d_ff
+# -- Compiling module d_flip_flop_tb
+# 
+# Top level modules:
+# 	d_flip_flop_tb
+# End time: 17:44:49 on Feb 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:44:50 on Feb 06,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.d_flip_flop_tb 
+# Start time: 17:44:50 on Feb 06,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.d_flip_flop_tb(fast)
+# Loading work.synchronous_reset_d_ff(fast)
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./run.do line 7
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add wave*"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add wave*"
+add wave -position insertpoint sim:/d_flip_flop_tb/*
+do run.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Errors: 0, Warnings: 1
+# QuestaSim-64 vlog 2021.1 Compiler 2021.01 Jan 19 2021
+# Start time: 17:46:42 on Feb 06,2024
+# vlog -reportprogress 300 synchronous_reset_d_ff.v d_flip_flop_tb.v 
+# -- Compiling module synchronous_reset_d_ff
+# -- Compiling module d_flip_flop_tb
+# 
+# Top level modules:
+# 	d_flip_flop_tb
+# End time: 17:46:42 on Feb 06,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# End time: 17:46:44 on Feb 06,2024, Elapsed time: 0:01:54
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" work.d_flip_flop_tb 
+# Start time: 17:46:44 on Feb 06,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.d_flip_flop_tb(fast)
+# Loading work.synchronous_reset_d_ff(fast)
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+# Error in macro ./run.do line 7
+# ** Error: bad option "wave*": should be one of...
+#   add atv ?options? ?arg arg ...?
+#   add button text action ?disable? ?options? ?help?
+#   add dataflow ?options? ?arg arg ...?
+#   add lists ?options? ?arg arg ...?
+#   add log ?options? ?arg arg ...?
+#   add memory options ?arg arg ...?
+#   add message ?options? ?arg arg ...?
+#   add monitor ?options? ?arg arg ...?
+#   add schematic ?options? ?arg arg ...?
+#   add testbrowser ?options? ?arg arg ...?
+#   add virtual ?options? ?arg arg ...?
+#   add watch ?options? ?arg arg ...?
+#   add wave ?options? ?arg arg ...?
+#     while executing
+# "error $msg"
+#     (procedure "::add::_unknown_" line 21)
+#     invoked from within
+# "::add::_unknown_ ::add wave*"
+#     (ensemble unknown subcommand handler)
+#     invoked from within
+# "add wave*"
+add wave *
+run -all
+# ** Note: $stop    : d_flip_flop_tb.v(20)
+#    Time: 72 ns  Iteration: 0  Instance: /d_flip_flop_tb
+# Break in Module d_flip_flop_tb at d_flip_flop_tb.v line 20
+vsim -debugdb d_flip_flop_tb.v
+# OpenFile d_flip_flop_tb.v
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+# Debug data file, vsim.dbg, does not exist.
+# 
+# Invoke vsim with -debugDB to create this file.
+vsim synchronous_reset_d_ff
+# End time: 17:52:00 on Feb 06,2024, Elapsed time: 0:05:16
+# Errors: 0, Warnings: 0
+# vsim synchronous_reset_d_ff 
+# Start time: 17:52:00 on Feb 06,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.synchronous_reset_d_ff(fast)
+vsim -debugdb synchronous_reset_d_ff
+# End time: 17:52:23 on Feb 06,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 0
+# vsim -debugdb synchronous_reset_d_ff 
+# Start time: 17:52:23 on Feb 06,2024
+# ** Warning: (vsim-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Note: (vsim-8611) Generating debug db.
+# ** Warning: (vopt-4308) Enabling visibility using +acc is recommended with debug flow.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.synchronous_reset_d_ff(fast)
+# ** Note: (vsim-8900) Creating design debug database vsim.dbg.
+vsim -debugdb synchronous_reset_d_ff
+# End time: 17:54:06 on Feb 06,2024, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim -debugdb synchronous_reset_d_ff 
+# Start time: 17:54:06 on Feb 06,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt2
+# Loading work.synchronous_reset_d_ff(fast)
+# ** Note: (vsim-8716) Reusing existing debug database vsim.dbg.
+# End time: 18:42:28 on Feb 06,2024, Elapsed time: 0:48:22
+# Errors: 0, Warnings: 0
