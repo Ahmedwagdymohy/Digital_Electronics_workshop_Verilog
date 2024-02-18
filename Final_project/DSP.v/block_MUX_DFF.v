@@ -13,4 +13,4 @@ always@(posedge CLK)begin
 end
 assign Q=sel?D:Q1;
     
-endmodule
+endmodule //end of the mainBlock

@@ -49,7 +49,7 @@ BLOCK_MUX_DFF #(.N(48)) C_REG_48 (C , CEC , RSTC ,C_reg_output );
 
 
 
-wire [17:0] w1; //wire of the mux(opMode4)
+wire [17:0] w1; //wire oof the mux(opMode4)
 
 
 
